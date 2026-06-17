@@ -71,9 +71,9 @@ def _print_all_flags():
 #   return specs
 
 def Runs():
-  """Runs all."""
+  """Start Run."""
   # specs = _CreateSpecs()
-  print(MODULES)
+  logging.info(f"Running benchmarks: {MODULES}")
   return 0
 
 
